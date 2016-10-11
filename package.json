@@ -1,0 +1,19 @@
+{
+  "name": "node-voicerss",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node example.js"
+  },
+  "author": "AJ Hsu",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "md5": "^2.2.1",
+    "mpg321": "^0.1.5",
+    "request": "^2.75.0",
+    "request-progress": "^2.0.1"
+  }
+}
